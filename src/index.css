@@ -1,0 +1,772 @@
+body,
+html {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  height: 100%;
+}
+
+.App {
+  text-align: center;
+  display: flex;
+  min-height: 100vh;
+  flex-direction: column;
+}
+
+/* nav */
+.mainnavbar {
+  display: block;
+  background-color: black;
+  opacity : 0.4;
+  margin: 0px;
+  width: 100%;
+  height: 90px;
+}
+
+.mainnavbar img {
+  margin-left: 20px;
+  width: auto;
+  height: 90px;
+}
+
+.navbar {
+  display: flex;
+  flex-direction: row;
+  background-color: white;
+  justify-content: space-around;
+  margin: 0px;
+  width: 100%;
+  height: 90px;
+  text-align: left;
+  border-bottom: 1px solid #ccc;
+}
+
+.navbar img {
+  width: auto;
+  height: 90px;
+  text-align: left;
+}
+
+
+.category {
+  width: 400px;
+  display: flex;
+  align-items: flex-end;
+  justify-content: center;
+  margin-bottom: 30px;
+  font-size: 20px;
+  justify-content: space-between;
+}
+
+.category .category-list {
+  text-decoration-line: none;
+  color: inherit;
+}
+
+.category .category-list-hover {
+  text-decoration-line: none;
+  color: #68C8CA;
+}
+
+.loginbtn {
+  width: 150px;
+  display: flex;
+  align-items: flex-end;
+  margin-bottom: 30px;
+}
+
+.loginbtn button {
+  width: 80px;
+  height: 30px;
+  background-color: #68C8CA;
+  color: white;
+	border: none;
+  border-radius: 20px;
+}
+
+.nav {
+  margin: 0px;
+  color: white;
+}
+
+/* footer */
+.foot {
+  display: flex;
+  text-align: left;
+  height: 124px;
+  background-color: #e8e6e6;
+  bottom: 0;
+  color: #999;
+  padding: 0px 100px 0px 100px;
+  justify-content: space-around;
+}
+
+.foot img {
+  height: 18px;
+  text-align: left;
+}
+
+.footer-right {
+  display: flex;
+  flex-direction: column;
+  text-align: left;
+  justify-content: center;
+}
+
+.footer-right-list ul{
+  padding: 0px;
+  margin: 0px;
+  display: flex;
+  flex-direction: row;
+  list-style: none;
+}
+
+.footer-right-list li {
+  margin: 0px 0px 0px 20px;
+  font-size: 12px;
+}
+
+.footer-left {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.footer-left img {
+  opacity : 0.4;
+  width: 27px;
+  height: 27px;
+  margin-left: 25px;
+}
+
+/* Banner */
+.banner {
+  width: 100%;
+  height: 100vh;
+  background-color: black;
+  opacity : 0.8;
+  display: flex;
+  flex-direction: column;
+  overflow: hidden;
+}
+
+.bannerright {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  height: 100%;
+}
+
+.bannerright h1 {
+  margin: 0px;
+  font-size: 80px;
+}
+
+.bannerright p {
+  font-size: 25px;
+  margin-bottom: 0px;
+}
+
+.banner2 {
+  background-image : url('../public/img/cherryblossom2.jpg');
+  width: 100%;
+  height: 100vh;
+  background-color: black;
+  opacity : 0.8;
+  display: flex;
+  flex-direction: column;
+  overflow: hidden;
+  color: white;
+}
+
+.banner2 h1 {
+  color: #de88a7;
+  text-shadow: -1px 0 white, 0 1px white, 1px 0 white, 0 -1px white;
+}
+
+.banner2 p {
+  font-weight: bold;
+  font-size: 25px;
+}
+
+.banner3 {
+  background-image : url('../public/img/tongyeong.jpg');
+  width: 100%;
+  height: 100vh;
+  background-color: black;
+  opacity : 0.8;
+  display: flex;
+  flex-direction: column;
+  overflow: hidden;
+  color: white;
+}
+
+.banner3 h1 {
+  color: #275427;
+  text-shadow: -1px 0 white, 0 1px white, 1px 0 white, 0 -1px white;
+}
+
+.banner3 h2 {
+  color: rgb(255, 255, 255);
+  text-shadow: -1px 0 #275427, 0 1px #275427, 1px 0 #275427, 0 -1px #275427;
+  font-size: 25px;
+  margin-bottom: 0px;
+}
+
+.banner4 {
+  width: 100%;
+  height: 100vh;
+  background-color: black;
+  opacity : 0.8;
+  display: flex;
+  flex-direction: column;
+  overflow: hidden;
+  color: white;
+}
+
+.banner4 h1 {
+  color: white;
+  text-shadow: -1px 0 white, 0 1px white, 1px 0 white, 0 -1px white;
+}
+
+.banner4 h2 {
+  color: white;
+  font-size: 25px;
+  margin-bottom: 0px;
+}
+
+.banner4 h1 {
+  color: white;
+  text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+}
+
+.banner4 h2 {
+  color: white;
+  text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+  font-size: 25px;
+  margin-bottom: 0px;
+}
+
+.banner-container .emoji{
+  width: 100%;
+  height: auto;
+  margin-top: 30px;
+  margin-bottom: 0px;
+  font-size: 30px;
+}
+
+.banner-container .first-title {
+  width: 100%;
+  height: auto;
+  margin: 0px;
+}
+
+.banner-container h2{
+  width: 100%;
+  height: auto;
+  margin-top: 0px;
+  margin-bottom: 30px;
+}
+
+.banner-container img{
+  width: 100%;
+  height: auto;
+}
+
+/*
+.moveleft {
+  color: white;
+  margin: auto;
+  font-size: 50px;  
+}
+
+.moveleft img {
+  width: 50px;
+  height: 50px;
+}
+
+.moveright {
+  color: white;
+  margin: auto;
+  font-size: 50px;  
+}
+
+.moveright img {
+  width: 50px;
+  height: 50px;
+}
+
+
+.bannerleft {
+  margin-left: 200px;
+  margin-right: 70px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+*/
+
+
+
+/* *************************************************************************** */
+
+/* 나라별 페이지 */
+
+.title {
+  font-size: 25px;
+}
+
+.app-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between; /* 컨텐츠 사이의 공간을 균등하게 분배 */
+  min-height: 100vh; /* 최소 높이를 뷰포트 높이의 100%로 설정 */
+  width: 100%; /* 너비를 100%로 설정 */
+}
+
+
+.travel-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  width: 50%;
+}
+
+.button-container {
+  position: relative;
+  bottom: 0;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  padding: 20px 0;
+  box-sizing: border-box;
+}
+
+.image-item {
+  position: relative;
+  width: calc(33.33% - 32px);
+  margin: 16px;
+  color: white;
+  border-radius: 15px;
+}
+
+.image-item img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  transition: transform 0.3s ease-in-out;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1), 0 6px 20px rgba(0, 0, 0, 0.19);
+}
+
+.image-item img:hover {
+  transform: scale(1.1);
+  opacity: 0.5;
+}
+
+.image-item:hover::after {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: white;
+  background-color: rgba(255, 255, 255, 0.5);
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+  font-size: 2em;
+  font-weight: bold;
+  z-index: 10;
+  padding: 10px;
+  border-radius: 5px;
+}
+
+.image-button {
+  display: flex; /* Flexbox를 사용하여 내용을 중앙에 배치 */
+  justify-content: center; /* 가로 방향 중앙 정렬 */
+  align-items: center; /* 세로 방향 중앙 정렬 */
+  padding: 10px; /* 버튼 내부 패딩 */
+  margin: 0 16px;
+  border: none; /* 테두리 제거 */
+  border-radius: 10px; /* 버튼의 테두리를 둥글게 */
+  cursor: pointer; /* 포인터 커서 스타일 */
+}
+
+.image-button img {
+  width: 30px; /* 이미지 너비 30px */
+  height: 30px; /* 이미지 높이 30px */
+  object-fit: cover; /* 이미지 비율을 유지하며 요소에 맞춤 */
+  border-radius: 50%; /* 이미지의 테두리를 완전히 둥글게 */
+}
+
+.Korea:hover::after {
+  content: 'KOREA';
+}
+
+.China:hover::after {
+  content: 'CHINA';
+}
+
+.Japan:hover::after {
+  content: 'JAPAN';
+}
+
+.image4:hover::after {
+  content: 'Egypt';
+}
+
+.image5:hover::after {
+  content: 'Russia';
+}
+
+.image6:hover::after {
+  content: 'India';
+}
+
+.image7:hover::after {
+  content: 'Maldives';
+}
+
+.image8:hover::after {
+  content: 'Singapore';
+}
+
+.image9:hover::after {
+  content: 'Spain';
+}
+
+/* 테마별 페이지 */
+.VacationSpots:hover::after {
+  content: '휴양';
+}
+
+.Tourism:hover:after {
+  content: '관광';
+}
+
+.Activity:hover::after {
+  content: '액티비티';
+}
+
+.GourmetTrip:hover::after {
+  content: '식도락';
+}
+
+/* 계절별 수정 */
+.image-item-season {
+  position: relative;
+  width: calc(25% - 32px);
+  height: 600px;
+  margin: 16px;
+  color: white;
+  border-radius: 15px;
+}
+
+.image-item-season img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  transition: transform 0.3s ease-in-out;
+  border-radius: 15px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1), 0 6px 20px rgba(0, 0, 0, 0.19);
+}
+
+.image-item-season img:hover {
+  transform: scale(1.1);
+  opacity: 0.5;
+}
+
+.image-item-season:hover::after {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: white;
+  background-color: rgba(255, 255, 255, 0.5);
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+  font-size: 2em;
+  font-weight: bold;
+  z-index: 10;
+  padding: 10px;
+  border-radius: 5px;
+}
+
+.Spring:hover::after {
+  content: '봄';
+}
+
+.Summer:hover::after {
+  content: '여름';
+}
+
+.Fall:hover::after {
+  content: '가을';
+}
+
+.Winter:hover::after {
+  content: '겨울';
+}
+
+
+/* 민영 */
+.topbg {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  /* background-color: #ccc; */
+  width: 100%;
+
+}
+
+.top {
+  border-top: 1px solid black;
+  border-bottom: 1px solid black;
+  margin-top: 15px;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  gap: 20px;
+  height: 250px;
+  width: 700px;
+}
+
+/*나라정보*/
+.Info {
+  width: 250px;
+  height: 200px;
+  text-align: left;
+  font-size: 20px;
+  font-weight: bold;
+  padding: 0;
+  border-top: 1px solid black;
+  border-bottom: 1px solid black;
+  border-left: 0px solid black;
+  border-right: 0px solid black;
+  margin: 0;
+  margin-right: 30px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;   
+  padding-left: 10px;
+  line-height: 85%;
+  text-align: justify;
+}
+
+/*국기div*/
+.imgfile {
+  width: auto;
+  height: auto;
+} 
+
+/*국기이미지*/
+.imgfile img {
+  border: 1px solid black;
+  width: 300;
+  height: 200px;
+}
+
+/*포스팅 div*/
+.postm {
+  padding-top: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+  flex-direction: column;
+}
+
+img.imgm {
+  height: 500px;
+  width: 700px;
+}
+
+.postm fieldset{
+  max-width: 680px;
+  align-items: center;
+  text-align: left;
+  border: none;
+  font-size: 16px;
+  border-radius: 10px;
+  display: table-cell;
+  vertical-align: bottom;
+}
+
+/*댓글*/
+.allAlignm {
+  text-align: center;
+  padding-top: 30px;
+}
+
+.commentm {
+  text-align: left;
+  font-size: 32px;
+  padding-bottom: 130px;
+  margin: 0;
+  justify-content: center;
+}
+
+.commentm > h2 {
+  margin: 0px 390px 10px;
+  text-align: left;
+  font-size: 25px;
+}
+
+.commentInputm {
+  margin-left: 390px;
+  width: 700px;
+  height: 50px;
+  font-size: 20px;
+  padding: 10px;
+  border: 2px solid rgb(157, 157, 157);
+  box-sizing: border-box;
+  border-radius: 5px;
+}
+
+.buttonForInputm {
+  margin-left: 10px;
+  box-sizing: border-box;
+  background-color: #68C8CA;
+  border: none;
+  border-radius: 5px;
+  font-weight: bold;
+  height: 50px;
+  width: 50px;
+  font-size: 24px;
+}
+
+.buttonForDelm {
+  margin-top: 10px;
+  margin-right: 10px;
+  margin-bottom: 10px;
+  box-sizing: border-box;
+  background-color: #68C8CA;
+  border: none;
+  border-radius:5px ;
+  font-weight: bold;
+  height: 23px;
+  width: 50px;
+  font-size: 15px;
+  color: white;
+}
+
+.buttonForInputm {
+  box-sizing: border-box;
+  background-color: #68C8CA;
+  border: none;
+  border-radius: 5px;
+  font-weight: bold;
+  height: 50px;
+  width: 50px;
+  font-size: 18px;
+  color: white;
+}
+
+.commentulm {
+  margin: 15px 380px 5px;
+  display: flex;
+  flex-direction: column;
+  text-align: left;
+  list-style: none;
+}
+
+.commentlim {
+  font-size: 20px;
+  height: 40px;
+  width: 650px;
+  border-bottom: 1px solid rgb(157, 157, 157);
+  display: flex;
+  justify-content: flex-end;
+}
+
+.commentulm button {
+  margin-left: auto;
+}
+
+/* 현진 */
+.mainpage{
+  padding-top: 50px;
+  margin: 0px 375px;
+  height: 50%;
+  font-family: 'Ownglyph_meetme-Rg';
+  font-size: 32px;
+  line-height: 47px;
+  text-align: left;
+}
+
+.mainpage .mainpage-content {
+  height: 50%;
+  font-family: 'Ownglyph_meetme-Rg';
+  font-size: 32px;
+  line-height: 47px;
+  text-align: left;
+}
+
+.img{
+  padding-top: 50px;
+  height: 500px;
+  width: 60%;
+}
+@font-face {
+  font-family: 'Ownglyph_meetme-Rg';
+  src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2402_1@1.0/Ownglyph_meetme-Rg.woff2') format('woff2');
+  font-weight: normal;
+  font-style: normal;
+}
+.comment{
+  font-family: 'Ownglyph_meetme-Rg';
+  text-align: left;
+  margin: 0px 375px;
+  font-size: 32px;
+  padding-bottom: 130px;
+
+}
+
+hr{
+  border: none;
+  height: 5px;
+  background-color: black;
+  border-radius: 10px;
+}
+.allAlign{
+  text-align: center;
+}
+.commentInput{
+  width: 80%;
+  height: 50px;
+  font-size: 20px;
+  padding: 10px;
+  box-sizing: border-box;
+  border-radius: 5px;
+}
+.buttonForInput{
+  margin-left: 10px;
+  box-sizing: border-box;
+  background-color: limegreen;
+  border: none;
+  border-radius: 5px;
+  font-weight: bold;
+  height: 50px;
+  width: 50px;
+  font-family: 'Ownglyph_meetme-Rg';
+  font-size: 24px;
+}
+.buttonForDel{
+  margin-left:10px ;
+  margin-bottom: 5px;
+  box-sizing: border-box;
+  background-color: limegreen;
+  border: none;
+  border-radius:5px ;
+  font-weight: bold;
+  height: 50px;
+  width: 50px;
+  font-family: 'Ownglyph_meetme-Rg';
+  font-size: 24px;
+  
+}
+.tooltip{
+  position: relative;
+  display: inline-block;
+}
+
+.highlight{
+  font-weight: 700;
+}
